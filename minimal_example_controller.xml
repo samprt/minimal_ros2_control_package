@@ -1,0 +1,9 @@
+<library path="minimal_example_controller">
+    <class name="minimal_example_controller/MinimalExampleController"
+           type="minimal_example_controller::MinimalExampleController"
+           base_class_type="controller_interface::ControllerInterface">
+        <description>
+            A minimal_example controller.
+        </description>
+    </class>
+</library>

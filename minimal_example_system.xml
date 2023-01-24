@@ -1,0 +1,9 @@
+<library path="minimal_example_system">
+    <class name="minimal_example_system/MinimalExampleSystem"
+           type="minimal_example_system::MinimalExampleSystem"
+           base_class_type="hardware_interface::SystemInterface">
+        <description>
+            minimal_example bug
+        </description>
+    </class>
+</library>
