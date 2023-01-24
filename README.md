@@ -2,6 +2,15 @@
 
 This is a minimal example of the problem I am having using ros2_control.
 
+#### Files in the repo :
+
+- minimal_example_system(.hpp/.cpp) : SImple implementation of a ros2_control hardware system, that controls 2 joints.
+- minimal_example_controller(.hpp/.cpp) : Implementation of a very basic ros2 controller that subscribes to a command topic and forwards the commands to the hardware system.
+- config/controllers.yaml : Config for the minimal_example_controller.
+- launch/test_launch.launch.py : ROS2 launch file
+
+You can enable and disable the use of `asio` by commenting [this  line](https://github.com/samprt/minimal_ros2_control_package/blob/bd1249f0dabe769e8111639e3ba8498417886190/include/minimal_example_ros2_control/minimal_example_system.hpp#L19) in the minimal_example_system.hpp file.
+
 #### Steps to reproduce :
 
 1. Create a ROS2 workspace.
